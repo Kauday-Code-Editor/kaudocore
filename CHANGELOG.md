@@ -1,0 +1,1 @@
+nickelslereall : 22:25:00 FR : changing CONTRIBUTING.md
