@@ -1,1 +1,1 @@
-nickelslereall : 22:25:00 FR : changing CONTRIBUTING.md
+nickelslereall : 22:25:00 FR 24H : changing CONTRIBUTING.md
