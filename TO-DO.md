@@ -1,5 +1,5 @@
 ### First thing to do :  
-        - Buffer (src/core/buffer)
+        - Buffer (src/core/buffer) : stilau do `rope, piece-table & content` & nickels do : `memory & storage`
             ```
             C’est le cœur de l’éditeur : gérer le texte, l’insertion, la suppression, les structures type rope ou piece table, et la mémoire.
             Commence par définir les interfaces et traits (traits.rs) pour que tout reste modulaire.
