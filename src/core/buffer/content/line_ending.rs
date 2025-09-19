@@ -273,7 +273,8 @@ mod tests {
         assert_eq!(LineEnding::CRLF.count_lines(text_crlf), 3);
     }
 
-    #[test] 
+    #[test]
+    fn test_normalize_to_lf() {
         let text = "line1\r\nline2\rline3\nline4";
         let normalized = LineEnding::CRLF.normalize_to_lf(text);
         assert!(normalized.contains('\n'));
@@ -300,4 +301,5 @@ mod tests {
     fn test_empty_text() {
         assert_eq!(LineEnding::LF.count_lines(""), 1);
         assert_eq!(LineEnding::detect("").unwrap(), LineEnding::default());
+    }
 }
