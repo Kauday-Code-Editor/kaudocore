@@ -318,8 +318,8 @@ impl EncodingHandler {
                 0x8B => '‹',
                 0x8C => 'Œ',
                 0x8E => 'Ž',
-                0x91 => ''',
-                0x92 => ''',
+                0x91 => '‘',
+                0x92 => '’',
                 0x93 => '"',
                 0x94 => '"',
                 0x95 => '•',
@@ -358,8 +358,8 @@ impl EncodingHandler {
                 '‹' => 0x8B,
                 'Œ' => 0x8C,
                 'Ž' => 0x8E,
-                ''' => 0x91,
-                ''' => 0x92,
+                '‘' => 0x91,
+                '’' => 0x92,
                 '"' => 0x93,
                 '"' => 0x94,
                 '•' => 0x95,
@@ -445,3 +445,5 @@ mod tests {
         assert_eq!(text, decoded);
     }
 }
+
+// Made by still-eau (Id discord: stilau_)

@@ -303,3 +303,5 @@ mod tests {
         assert_eq!(LineEnding::detect("").unwrap(), LineEnding::default());
     }
 }
+
+// --Made by still-eau (Id discord: stilau_)
