@@ -6,3 +6,6 @@
             Assure la gestion de la mémoire et du stockage (pool, arena, slab).
             Sans buffer stable, rien d’autre ne peut vraiment fonctionner.
             ```
+
+### Thing to do :
+    - The [utils](src/utils/) folder for the basic & complex help
